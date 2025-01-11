@@ -1,7 +1,7 @@
 {% extends 'tasks/base.html' %}
 {% load static %}
 {% block content %}
-<link rel="stylesheet" href="{% static 'style.css' %}">
+<link rel="stylesheet" href="{% static 'tasks-style.css' %}">
 
 <div class="container">
     <h1>Manage Your Todos</h1>
@@ -17,6 +17,6 @@
     <!-- Task List -->
     <ul class="todo-list" id="todo-list"></ul>
 </div>
-<script src="{% static 'script.js' %}"></script>
+<script src="{% static 'tasks-script.js' %}"></script>
 
 {% endblock %}
