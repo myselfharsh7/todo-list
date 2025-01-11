@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-w9_g@qw_yjd9@1p)l)72zb1ynf4s-)!vz)wg+qi!9tt7p)2(1u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['todo-list-svnt.onrender.com','localhost']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -127,7 +127,6 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'tasks/static'),
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
